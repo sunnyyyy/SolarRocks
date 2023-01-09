@@ -11,6 +11,5 @@ export const optionsAtom = atom<CtxOptions>({
     mode: 'draw',
     shape: 'line',
     selection: null,
-    sticker: 'solar', 
   },
 });
