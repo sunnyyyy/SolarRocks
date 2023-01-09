@@ -9,7 +9,6 @@ export interface CtxOptions {
   lineColor: RgbaColor;
   fillColor: RgbaColor;
   shape: Shape;
-  sticker: Stickers;
   mode: CtxMode;
   selection: {
     x: number;
