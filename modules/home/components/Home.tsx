@@ -72,7 +72,8 @@ const Home = () => {
        <Image src="/giphy.gif" //{homeimg} 
               alt="homepage"
               width="350px"
-              height="300px" />
+              height="300px"
+              unoptimized />
       </div> 
       <h1 className="text-5xl font-extrabold leading-tight sm:text-extra">
         Solar rocks 
