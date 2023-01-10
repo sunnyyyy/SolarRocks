@@ -12,6 +12,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^4.30.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/material": "^5.11.3",
