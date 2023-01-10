@@ -69,7 +69,7 @@ const Home = () => {
     <div className="flex flex-col items-center p-2">
 
       <div className="p-3">
-       <Image src="/home.gif" //{homeimg} 
+       <Image src={homeimg} 
               alt="homepage"
               width="350px"
               height="300px" />
