@@ -6,6 +6,7 @@ import { socket } from '@/common/lib/socket';
 import { useSetRoomId } from '@/common/recoil/room';
 import NotFoundModal from '@/modules/home/modals/NotFound';
 import { useModal } from '@/modules/modal';
+import Image from 'next/image';
 
 const NameInput = () => {
   const setRoomId = useSetRoomId();
@@ -61,7 +62,13 @@ const NameInput = () => {
       className="my-24 flex flex-col items-center"
       onSubmit={handleJoinRoom}
     >
-
+      <div className="p-3">
+       <Image src="/home.gif"  
+              alt="homepage"
+              width="350px"
+              height="300px"
+              unoptimized />
+      </div> 
       <h1 className="text-1xl font-extrabold leading-tight sm:text-extra">
         Solor rocks 
       </h1>

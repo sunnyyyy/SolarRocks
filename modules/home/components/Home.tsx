@@ -17,7 +17,7 @@ const Home = () => {
   const { openModal } = useModal();
   const setAtomRoomId = useSetRoomId();
   
-  const [roomId ,setRoomId] = useState('Lobby');
+  const [roomId ,setRoomId] = useState('');
   const [username, setUsername] = useState('');
 
   const router = useRouter();
@@ -105,7 +105,7 @@ const Home = () => {
         <input
           className="input"
           id="room-id"
-          defaultValue={roomId}
+          placeholder='Rooom id...'
           value={roomId}
           onChange={(e) => setRoomId(e.target.value)}
         />
